@@ -23,6 +23,7 @@ html{
     margin: 0 auto;
 }
 body{
+    min-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +179,9 @@ section{
 .Portrait-frame{
     background-color: #2EE2FF;
     border-radius: 25%;
-    float: right;
+    float: left;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Hero section*/
